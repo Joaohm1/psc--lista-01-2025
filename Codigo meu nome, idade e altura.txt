@@ -1,0 +1,18 @@
+programa {
+  cadeia nome
+  inteiro idade
+  inteiro altura
+  funcao inicio() {
+    escreva("Qual é seu nome ?")
+    leia(nome)
+    
+    escreva("Qual a sua idade ?")
+    leia(idade)
+
+    escreva("Qual a sua altura ?")
+    leia(altura)
+    
+    escreva("\n O seu nome é ", nome , ", sua idade é ",idade," e a sua altura é ",altura," metros")
+    
+  }
+}
